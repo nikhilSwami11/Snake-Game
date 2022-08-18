@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.background{
+    background: linear-gradient(rgb(1, 1, 19),rgb(177, 196, 250));
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    color: blanchedalmond;
+}
+#scoreBox{
+    color: cornsilk;
+    margin-bottom: 12px;
+}
+#highScore{
+    color: aquamarine;
+}
+.playbox{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 12px;
+    background: black;
+    display: grid;
+    grid-template-columns: repeat(40,1fr);
+    grid-template-rows: repeat(40,1fr);
+}
+
+.head{
+    background-color: cyan;
+    box-shadow: 0 0 1rem 0.1rem rgba(0, 255, 255, 0.822);
+}
+.snake{
+    background-color: cadetblue;
+}
+.food{
+    background-color: rgb(245, 9, 9);
+    box-shadow: 0 0 1rem 0.2rem rgb(247, 53, 5);
+}
